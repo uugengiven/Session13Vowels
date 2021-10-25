@@ -20,7 +20,7 @@ namespace VowelCounter
             int counter = 0;
             foreach(char letter in sentence)
             {
-                if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                if("aeiou".Contains(letter))
                 {
                     counter = counter + 1;
                 }
