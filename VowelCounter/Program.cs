@@ -6,12 +6,10 @@ namespace VowelCounter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            for (int i = 0; i < args.Length; i++)
-            {
-                Console.WriteLine($"{i}) {args[i]}");
-            }
+            // Count all of the vowels in a given sentence/string
+            // ex: hello should return 2
+            // for this example, a, e, i, o, and u are vowels
+            // but y is not.
         }
     }
 }
