@@ -13,6 +13,9 @@ namespace VowelCounter
 
             Console.WriteLine(CountIt("hello")); // 2
             Console.WriteLine(CountIt("what is happening")); // 5
+
+            Console.WriteLine("Hi there"!);
+            Console.WriteLine("You've found the secret version!");
         }
 
         static int CountIt(string sentence)
