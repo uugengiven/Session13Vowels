@@ -12,7 +12,7 @@ namespace VowelCounter
             // but y is not.
 
             Console.WriteLine(CountIt("hello")); // 2
-            Console.WriteLine(CountIt("we are all going to dune tonight, yay")); // 5
+            Console.WriteLine(CountIt("what has happened? we are all going to dune tonight, yay")); // 5
         }
 
         static int CountIt(string sentence)
