@@ -10,6 +10,22 @@ namespace VowelCounter
             // ex: hello should return 2
             // for this example, a, e, i, o, and u are vowels
             // but y is not.
+
+            Console.WriteLine(CountIt("hello")); // 2
+            Console.WriteLine(CountIt("what is happening")); // 5
+        }
+
+        static int CountIt(string sentence)
+        {
+            int counter = 0;
+            foreach(char letter in sentence)
+            {
+                if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                {
+                    counter = counter + 1;
+                }
+            }
+            return counter;
         }
     }
 }
